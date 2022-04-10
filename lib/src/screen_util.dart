@@ -69,7 +69,7 @@ class ScreenUtil {
     }
   }
 
-  static void setContext(BuildContext context) {
+  static void setContext(BuildContext? context) {
     _instance.context = context;
   }
 
